@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết nối Bluetooth</title>
+  <link rel="stylesheet" href="styles/index.css" />
+</head>
+
+<body>
+  <div class="app">
+    <div class="app-connection">
+      <button id="connectButton">Kết nối Xe</button>
+      <textarea id="output" rows="8" cols="30" readonly></textarea>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="dpad">
+      <button class="btn up" onmousedown="send('F')">▲</button>
+      <button class="btn left" onmousedown="send('L')">◀</button>
+      <button class="btn right" onmousedown="send('R')">▶</button>
+      <button class="btn down" onmousedown="send('B')">▼</button>
+    </div>
+    
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>

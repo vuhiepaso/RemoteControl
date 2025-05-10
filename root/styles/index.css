@@ -1,0 +1,58 @@
+.app {
+    background-color: antiquewhite;
+    position: absolute;
+}
+.app-connection {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98dvh;
+    background: #f2f2f2;
+  }
+  
+  .dpad {
+    position: relative;
+    width: 120px;
+    height: 120px;
+  }
+  
+  .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: #ddd;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .btn:hover {
+    background: #ccc;
+  }
+  
+  .up {
+    top: 0;
+    left: 40px;
+  }
+  
+  .down {
+    bottom: 0;
+    left: 40px;
+  }
+  
+  .left {
+    top: 40px;
+    left: 0;
+  }
+  
+  .right {
+    top: 40px;
+    right: 0;
+  }
